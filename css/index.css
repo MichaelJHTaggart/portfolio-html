@@ -11,6 +11,10 @@ body {
  background-color: grey;
 }
 
+li, a {
+ font-size: 1.4em;
+}
+
 p {
  margin: 0.5em 0 0.5em 0;
 }

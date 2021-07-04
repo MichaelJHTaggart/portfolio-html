@@ -8,78 +8,89 @@
  <title>Projects</title>
  <link rel="stylesheet" href="../css/index.css">
  <style>
-  @media screen and (min-width: 768px) {
-   .mobile {
-    display: none
+  h1,
+  h2 {
+   font-size: 3em;
+   font-weight: 900;
+
+   word-spacing: .5em;
+   letter-spacing: .2em;
+
+  }
+
+  h2 {
+   font-size: 2em;
+   font-style: italic;
+  }
+
+  @media screen and (max-width: 500px) {
+   img {
+    height: 100%;
+    width: 100%;
    }
 
-   .mobile {
-    font-size: xx-large;
-   }
-
-   .desktop {
-    display: flex;
+   li a {
+    font-size: .9em;
    }
   }
 
-  @media screen and (max-width: 768px) {
-   .mobile {
-    display: flex;
+  @media screen and (min-width: 500px) {
+   img {
+    height: 100%;
+    width: 100%;
    }
 
-   .desktop {
-    display: none;
+   h1 {
+    font-size: 8em;
+   }
+
+   h2 {
+    font-size: 4em;
+   }
+
+   h3 {
+    font-size: 5em;
+   }
+
+   p {
+    font-size: 4em;
    }
   }
  </style>
 </head>
 
 <body>
- <header class="mobile">
+ <header>
   <nav>
    <ul>
-    <li>
-     <a href="index.html">Home</a>
-    </li>
-    <li>
-     <a href="projects.html">Projects</a>
-    </li>
-    <li>
-     <a href="aboutMe.html">About Me</a>
-    </li>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="aboutMe.html">About Me</a></li>
    </ul>
   </nav>
  </header>
 
- <article class="mobile">
-  Test
- </article>
+ <main>
+  <article>
+   <h1>Michael Taggart</h1>
+   <h2>Web Developer</h2>
+   <aside><img src="../images/working.jpeg"></aside>
+   <h3>Welcome to my Portfolio!</h3>
+   <p>Working hard to continually learn and provide service that will best help any business that is in need of web
+    development skills</p>
+  </article>
+ </main>
 
- <footer class="mobile">
-  Test
+ <footer>
+  <nav>
+   <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="aboutMe.html">About Me</a></li>
+   </ul>
+  </nav>
  </footer>
 
- <header class="desktop">
-  <nav>
-   <ul>
-    <li>
-     <a href="index.html">Home</a>
-    </li>
-    <li>
-     <a href="projects.html">Projects</a>
-    </li>
-    <li>
-     <a href="aboutMe.html">About Me</a>
-    </li>
-   </ul>
-  </nav>
- </header>
-
- <article class="desktop">Test</article>
-
- <footer class="desktop">Test</footer>
-
 </body>
-<script></script>
 
 </html>

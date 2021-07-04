@@ -2,59 +2,94 @@
 <html lang="en">
 
 <head>
- <meta charset="UTF-8">
- <meta http-equiv="X-UA-Compatible" content="IE=edge">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Michael Taggart's Portfolio</title>
- <link rel="stylesheet" href="../css/index.css">
- <style>
-  h1 {
-   font-size: 3em;
-   font-weight: 900;
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Michael Taggart's Portfolio</title>
+  <link rel="stylesheet" href="../css/index.css">
+  <style>
+    h1,
+    h2 {
+      font-size: 3em;
+      font-weight: 900;
 
-   word-spacing: .5em;
-   letter-spacing: .2em;
+      word-spacing: .5em;
+      letter-spacing: .2em;
 
-  }
+    }
 
-  h2 {
-   font-size: 2em;
-   font-style: italic;
-  }
- </style>
+    h2 {
+      font-size: 2em;
+      font-style: italic;
+    }
+
+    @media screen and (max-width: 500px) {
+      img {
+        height: 100%;
+        width: 100%;
+      }
+
+      li a {
+        font-size: .9em;
+      }
+    }
+
+    @media screen and (min-width: 500px) {
+      img {
+        height: 100%;
+        width: 100%;
+      }
+
+      h1 {
+        font-size: 8em;
+      }
+
+      h2 {
+        font-size: 4em;
+      }
+
+      h3 {
+        font-size: 5em;
+      }
+
+      p {
+        font-size: 4em;
+      }
+    }
+  </style>
 </head>
 
 <body>
- <header>
-  <nav>
-   <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="projects.html">Projects</a></li>
-    <li><a href="aboutMe.html">About Me</a></li>
-   </ul>
-  </nav>
- </header>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="aboutMe.html">About Me</a></li>
+      </ul>
+    </nav>
+  </header>
 
- <main>
-  <article>
-   <h1>Michael Taggart</h1>
-   <h2>Web Developer</h2>
-   <aside><img src="../images/working.jpeg"></aside>
-   <h3>Welcome to my Portfolio!</h3>
-   <p>Working hard to continually learn and provide service that will best help any business that is in need of web
-    development skills</p>
-  </article>
- </main>
+  <main>
+    <article>
+      <h1>Michael Taggart</h1>
+      <h2>Web Developer</h2>
+      <aside><img src="../images/working.jpeg"></aside>
+      <h3>Welcome to my Portfolio!</h3>
+      <p>Working hard to continually learn and provide service that will best help any business that is in need of web
+        development skills</p>
+    </article>
+  </main>
 
- <footer>
-  <nav>
-   <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="projects.html">Projects</a></li>
-    <li><a href="aboutMe.html">About Me</a></li>
-   </ul>
-  </nav>
- </footer>
+  <footer>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="aboutMe.html">About Me</a></li>
+      </ul>
+    </nav>
+  </footer>
 
 </body>
 
